@@ -1,5 +1,15 @@
 {
   "item.tutorialmod.lead_ingot": "Lead Ingot",
   "item.tutorialmod.lead_sheet": "Lead Sheet",
-  "item.tutorialmod.raw_uranium": "Raw Uranium"
+  "item.tutorialmod.raw_uranium": "Raw Uranium",
+  "item.tutorialmod.raw_lead": "Raw Lead",
+  "item.tutorialmod.crushed_lead": "Crushed Lead",
+  "item.tutorialmod.lead_nugget": "Lead Nugget",
+  "block.tutorialmod.deepslate_uranium_ore": "Deepslate Uranium Ore",
+  "block.tutorialmod.lead_casing": "Lead Casing",
+  "block.tutorialmod.lead_ore": "Lead Ore",
+  "block.tutorialmod.raw_lead_block": "Block of Raw Lead",
+  "block.tutorialmod.lead_block": "Block of Lead",
+
+  "itemgroup.lead": "Tutorial mod Items"
 }

@@ -17,6 +17,12 @@ public class ModItems {
     public static final Item LEAD_INGOT = registerItem("lead_ingot", new Item(new FabricItemSettings()));
     public static final  Item RAW_URANIUM = registerItem("raw_uranium", new Item(new FabricItemSettings()));
     public static final  Item LEAD_SHEET = registerItem("lead_sheet", new Item(new FabricItemSettings()));
+    public static final  Item RAW_LEAD = registerItem("raw_lead", new Item(new FabricItemSettings()));
+    public static final  Item LEAD_NUGGET = registerItem("lead_nugget", new Item(new FabricItemSettings()));
+    public static final  Item CRUSHED_LEAD = registerItem("crushed_lead", new Item(new FabricItemSettings()));
+
+
+
 
     // add items to Ingredient tab
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
