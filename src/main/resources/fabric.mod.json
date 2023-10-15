@@ -15,6 +15,9 @@
 	"icon": "assets/tutorialmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
+		"main": [
+			"net.lava778.tutorialmod.TutorialMod"
+		],
 		"client": [
 			"net.lava778.tutorialmod.TutorialModClient"
 		],

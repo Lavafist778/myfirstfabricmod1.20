@@ -13,11 +13,17 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
+// declares new items, textures and english/other language names must be declared in seperate JSON files
     public static final Item LEAD_INGOT = registerItem("lead_ingot", new Item(new FabricItemSettings()));
+    public static final  Item RAW_URANIUM = registerItem("raw_uranium", new Item(new FabricItemSettings()));
+    public static final  Item LEAD_SHEET = registerItem("lead_sheet", new Item(new FabricItemSettings()));
 
+    // add items to Ingredient tab
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
 
         entries.add(LEAD_INGOT);
+        entries.add(RAW_URANIUM);
+        entries.add(LEAD_SHEET);
     }
     private static Item registerItem(String name, Item item)  {
         // make sure Registry is net.minecraft registry nothing else
